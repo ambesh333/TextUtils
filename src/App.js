@@ -61,10 +61,10 @@ function App() {
     <Navbar title = "TextUtils"mode = {mode} toggleMode={toggleMode}/> 
     <Alert alert = {alert}/>
     <div className ="container">
-    <Switch> 
+    <Switch> */
            <Route exact path="/about">
             <About/>
-          </Route> 
+          </Route> */
           <Route exact path="/">
           <TextForm showAlert={showAlert} heading ="Enter the text to analyse below" mode = {mode}/>
           </Route>
